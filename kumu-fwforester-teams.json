@@ -1,0 +1,483 @@
+{
+  "version": 1,
+  "name": "Teams",
+  "description": "Teams to Product Map",
+  "proxyImages": true,
+  "defaultMap": "map-HT1uxNLM",
+  "defaultPerspective": null,
+  "attributeRelevance": {},
+  "attributes": [
+    {
+      "_id": "attr-t8XDwV7L",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-ti0uNfNW",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-e1v1ueYr",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Person",
+        "Organization"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-AXmn5GrG",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-HdXRMqY6",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-Tm44HSOr",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    }
+  ],
+  "elements": [
+    {
+      "_id": "elem-t1a1qtj3",
+      "attributes": {
+        "label": "RescueNet Platform1"
+      }
+    },
+    {
+      "_id": "elem-uxycja8r",
+      "attributes": {
+        "label": "RescueNet Dispatch"
+      }
+    },
+    {
+      "_id": "elem-62q3lz3e",
+      "attributes": {
+        "label": "RescueNet Clinical"
+      }
+    },
+    {
+      "_id": "elem-9z22ntrl",
+      "attributes": {
+        "label": "RescueNet Billing"
+      }
+    },
+    {
+      "_id": "elem-2itHv9dc",
+      "attributes": {
+        "label": "Deployment"
+      }
+    },
+    {
+      "_id": "elem-L61ruXii",
+      "attributes": {
+        "label": "PO - Billing"
+      }
+    },
+    {
+      "_id": "elem-kYFNYH7s",
+      "attributes": {
+        "label": "PO - Clinical"
+      }
+    },
+    {
+      "_id": "elem-dR5K12hR",
+      "attributes": {
+        "label": "PO - Billing"
+      }
+    },
+    {
+      "_id": "elem-sJ5CJful",
+      "attributes": {
+        "label": "Respond"
+      }
+    },
+    {
+      "_id": "elem-H5QfkOns",
+      "attributes": {
+        "label": "DEV Lead - Dispatch"
+      }
+    },
+    {
+      "_id": "elem-laFNT7m9",
+      "attributes": {
+        "label": "DEV Lead - Clinical"
+      }
+    },
+    {
+      "_id": "elem-nSZeVCJ6",
+      "attributes": {
+        "label": "DEV Lead - Billing"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-kmrQSTEy",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t1a1qtj3",
+      "to": "elem-uxycja8r"
+    },
+    {
+      "_id": "conn-SEltjgCm",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t1a1qtj3",
+      "to": "elem-62q3lz3e"
+    },
+    {
+      "_id": "conn-9pleDoDN",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t1a1qtj3",
+      "to": "elem-9z22ntrl"
+    },
+    {
+      "_id": "conn-9cxZ4SCz",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t1a1qtj3",
+      "to": "elem-2itHv9dc"
+    },
+    {
+      "_id": "conn-YhiOJRic",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-9z22ntrl",
+      "to": "elem-L61ruXii"
+    },
+    {
+      "_id": "conn-EeBSXYDo",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-62q3lz3e",
+      "to": "elem-L61ruXii"
+    },
+    {
+      "_id": "conn-L5rGlmZp",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-62q3lz3e",
+      "to": "elem-kYFNYH7s"
+    },
+    {
+      "_id": "conn-gpJ93jnO",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-uxycja8r",
+      "to": "elem-dR5K12hR"
+    },
+    {
+      "_id": "conn-4TonfDxK",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-t1a1qtj3",
+      "to": "elem-sJ5CJful"
+    },
+    {
+      "_id": "conn-Z9DuF1gc",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-uxycja8r",
+      "to": "elem-H5QfkOns"
+    },
+    {
+      "_id": "conn-amDQrFBl",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-62q3lz3e",
+      "to": "elem-laFNT7m9"
+    },
+    {
+      "_id": "conn-yBfUevBY",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-9z22ntrl",
+      "to": "elem-nSZeVCJ6"
+    }
+  ],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-HT1uxNLM",
+      "name": "Untitled map",
+      "description": "Teams mapped to Products",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-CxcTDqpe",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "undirected",
+      "elements": [
+        {
+          "_id": "node-tusFSbJG",
+          "position": {
+            "x": -219.00857849344385,
+            "y": -242.0470162831023
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-t1a1qtj3"
+        },
+        {
+          "_id": "node-0BKRIzfH",
+          "position": {
+            "x": -456.48062931648093,
+            "y": -33.03408799923474
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-uxycja8r"
+        },
+        {
+          "_id": "node-V2decG8c",
+          "position": {
+            "x": -215.25467173937975,
+            "y": -39.100847469320584
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-62q3lz3e"
+        },
+        {
+          "_id": "node-6PIPn71W",
+          "position": {
+            "x": 15.980682974063239,
+            "y": -40.86989537466435
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-9z22ntrl"
+        },
+        {
+          "_id": "node-pYsQYr3v",
+          "position": {
+            "x": -241.42358509935275,
+            "y": -412.1044710480918
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-2itHv9dc"
+        },
+        {
+          "_id": "node-Esaw4yhx",
+          "position": {
+            "x": 175.52034814373997,
+            "y": 85.94705445350345
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-L61ruXii"
+        },
+        {
+          "_id": "node-clGk43Xo",
+          "position": {
+            "x": -225.3874995675718,
+            "y": 118.15067751478077
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-kYFNYH7s"
+        },
+        {
+          "_id": "node-4m28igZd",
+          "position": {
+            "x": -441.0912890353351,
+            "y": 101.16031053615558
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-dR5K12hR"
+        },
+        {
+          "_id": "node-Ty3ZhP5p",
+          "position": {
+            "x": 300.5751651620427,
+            "y": -28.85293243071542
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-sJ5CJful"
+        },
+        {
+          "_id": "node-sd6Ra8Y7",
+          "position": {
+            "x": -613.6756784539382,
+            "y": 105.94797884276956
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-H5QfkOns"
+        },
+        {
+          "_id": "node-OwaVKNdt",
+          "position": {
+            "x": -321.8724096830494,
+            "y": 122.84778205343882
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-laFNT7m9"
+        },
+        {
+          "_id": "node-2S0lU896",
+          "position": {
+            "x": -28.942487364782522,
+            "y": 113.8345536744152
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-nSZeVCJ6"
+        }
+      ],
+      "connections": [
+        {
+          "_id": "edge-xqVu8y09",
+          "curvature": -0.0494656148146395,
+          "style": {},
+          "connection": "conn-kmrQSTEy"
+        },
+        {
+          "_id": "edge-2lA1ygaz",
+          "curvature": -0.028725082798033725,
+          "style": {},
+          "connection": "conn-SEltjgCm"
+        },
+        {
+          "_id": "edge-MiD1JX8G",
+          "curvature": 0.01855021536502417,
+          "style": {},
+          "connection": "conn-9pleDoDN"
+        },
+        {
+          "_id": "edge-xeoM03KS",
+          "style": {},
+          "connection": "conn-9cxZ4SCz"
+        },
+        {
+          "_id": "edge-sxVk2RyG",
+          "style": {},
+          "connection": "conn-YhiOJRic"
+        },
+        {
+          "_id": "edge-bvQKTKG4",
+          "style": {},
+          "connection": "conn-L5rGlmZp"
+        },
+        {
+          "_id": "edge-qYoNLLxy",
+          "style": {},
+          "connection": "conn-gpJ93jnO"
+        },
+        {
+          "_id": "edge-gqVCmPKL",
+          "curvature": 0.059792857992261104,
+          "style": {},
+          "connection": "conn-4TonfDxK"
+        },
+        {
+          "_id": "edge-HVpa4bDM",
+          "style": {},
+          "connection": "conn-Z9DuF1gc"
+        },
+        {
+          "_id": "edge-hPZQFowy",
+          "style": {},
+          "connection": "conn-amDQrFBl"
+        },
+        {
+          "_id": "edge-4pFDyo79",
+          "style": {},
+          "connection": "conn-yBfUevBY"
+        }
+      ],
+      "loops": []
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-CxcTDqpe",
+      "name": "Untitled view",
+      "style": "@settings {\n  template: stakeholder;\n}\n\n"
+    }
+  ]
+}
